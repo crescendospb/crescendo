@@ -2397,6 +2397,38 @@ html.no-csstransitions .home-content__main {
     font-size: 3.6rem;
 }
 
+.icon-paint-brush:before, .icon-group:before , .icon-megaphone:before, .icon-earth:before, .icon-cube:before, .icon-lego-block:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 2px;
+}
+
+.icon-paint-brush:before {
+    background: url(../images/icons/gambler-casino.svg) left center no-repeat;
+}
+
+.icon-group:before {
+    background: url(../images/icons/gambler-casino-2.svg) left center no-repeat;
+}
+
+.icon-megaphone:before {
+    background: url(../images/icons/gambler-casino-5.svg) left center no-repeat;
+}
+
+.icon-earth:before {
+    background: url(../images/icons/gambler-poker.svg) left center no-repeat;
+}
+
+.icon-cube:before {
+    background: url(../images/icons/gambler-casino-3.svg) left center no-repeat;
+}
+
+.icon-lego-block:before {
+    background: url(../images/icons/gambler-gambling.svg) left center no-repeat;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
