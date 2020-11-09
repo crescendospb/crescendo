@@ -2396,6 +2396,7 @@ html.no-csstransitions .home-content__main {
 .services-list .service-text b {
     color: #e11e22;
     font-size: 3.6rem;
+    display: block;
 }
 
 .icon-paint-brush:before, .icon-group:before , .icon-megaphone:before, .icon-earth:before, .icon-cube:before, .icon-lego-block:before {
@@ -2445,6 +2446,9 @@ html.no-csstransitions .home-content__main {
     width: 40px;
     height: 40px;
   }
+    .services-list .service-text b {
+    display: inline;}
+}
 }
 @media (min-width: 800px) {
   .icon-paint-brush:before, .icon-group:before , .icon-megaphone:before, .icon-earth:before, .icon-cube:before, .icon-lego-block:before {
