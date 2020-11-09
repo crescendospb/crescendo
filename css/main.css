@@ -2429,6 +2429,11 @@ html.no-csstransitions .home-content__main {
     background: url(../images/icons/gambler-gambling.svg) left center no-repeat;
 }
 
+.icon-arrow-up:before {
+    content: "↑";
+    font-size: 5rem;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
