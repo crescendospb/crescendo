@@ -2392,6 +2392,10 @@ html.no-csstransitions .home-content__main {
     margin-top: -.6rem;
 }
 
+.services-list .service-text b {
+    color: #e11e22;
+    font-size: 4.6rem;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
