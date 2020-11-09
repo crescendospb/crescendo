@@ -2367,6 +2367,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-item {
     margin-bottom: .9rem;
+    margin-top: 60px;
 }
 
 .services-list .service-item h3 {
@@ -2399,10 +2400,11 @@ html.no-csstransitions .home-content__main {
 
 .icon-paint-brush:before, .icon-group:before , .icon-megaphone:before, .icon-earth:before, .icon-cube:before, .icon-lego-block:before {
     content: "";
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 2px;
+    top: -40px;
+    margin-left: -10px;
 }
 
 .icon-paint-brush:before {
@@ -2432,6 +2434,25 @@ html.no-csstransitions .home-content__main {
 .icon-arrow-up:before {
     content: "↑";
     font-size: 3.6rem;
+}
+
+.services-list .service-item {
+    margin-top: 40px;
+}
+
+@media (min-width: 480px) {
+  .icon-paint-brush:before, .icon-group:before , .icon-megaphone:before, .icon-earth:before, .icon-cube:before, .icon-lego-block:before {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (min-width: 800px) {
+  .icon-paint-brush:before, .icon-group:before , .icon-megaphone:before, .icon-earth:before, .icon-cube:before, .icon-lego-block:before {
+    top: 2px;
+  }
+  .services-list .service-item {
+    margin-top: 0;
+}
 }
 
 /* ------------------------------------------------------------------- 
@@ -3609,4 +3630,4 @@ footer .row {
     .footer-main .right {
         padding-left: 0;
     }
-}
+}}
