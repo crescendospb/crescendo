@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Host: https://крещендоспб.рф
-Sitemap: https://крещендоспб.рф/sitemap.xml
+Host: https://xn--90afcaxuiidp7f.xn--p1ai
+Sitemap: https://xn--90afcaxuiidp7f.xn--p1ai/sitemap.xml
